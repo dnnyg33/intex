@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/pic_list_print"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="printButtonClicked"
+            android:text="Select Many" />
+
+        <Button
+            android:id="@+id/show_and_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="showButtonClicked"
+            android:text="Show" />
+
+    </LinearLayout>
+
+ 
+
+        <ViewFlipper
+            android:id="@+id/vf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:id="@+id/picListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                >
+                
+                
+            </ListView>
+
+            <ImageView
+                android:id="@+id/image_view_show"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="8.04"
+                android:src="@drawable/ic_launcher" />
+
+            
+
+        </ViewFlipper>
+
+    
+    
+
+</LinearLayout>

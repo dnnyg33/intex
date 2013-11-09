@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/intex.sprint3">
+
+    <ImageView
+        android:id="@+id/image_view_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.47"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Caption"
+            android:inputType="textMultiLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@drawable/ioslinen" >
+
+            <Button
+                android:id="@+id/upload"
+                style="@style/AppTheme"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.79"
+                android:onClick="uploadClicked"
+                android:text="Upload" />
+
+            <Button
+                android:id="@+id/takePicture"
+                android:layout_width="72dp"
+                android:layout_height="69dp"
+                android:background="@drawable/camera_48_icon" 
+                android:onClick="takeNewPicture"/>
+
+            <Button
+                android:id="@+id/print"
+                style="@style/AppTheme"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.79"
+                android:onClick="singlePrint"
+                android:text="Print" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

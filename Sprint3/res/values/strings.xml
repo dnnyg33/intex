@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyStuff Company</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Upload</string>
+    <string name="title_section1">My Pictures</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginUrl">mobile.Login.actions</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_view_flipper">ViewFlipper</string>
+
+</resources>
